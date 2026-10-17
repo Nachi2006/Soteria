@@ -1,0 +1,32 @@
+# ── Python ────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Environment ──────────────────────
+.env
+.venv/
+venv/
+env/
+
+# ── IDE ──────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Soteria Runtime ──────────────────
+*.db
+soteria_results.db
+reports_output/
+*.html
+
+# ── OS ───────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
