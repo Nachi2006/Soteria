@@ -57,7 +57,7 @@ def _setup_logging(verbose: bool) -> None:
 @click.option("--verbose", "-v", is_flag=True, help="Enable debug logging.")
 @click.pass_context
 def cli(ctx, verbose):
-    """⚔️  Soteria — Automated Adversarial Red-Teaming Harness"""
+    """Soteria -- Automated Adversarial Red-Teaming Harness"""
     ctx.ensure_object(dict)
     ctx.obj["verbose"] = verbose
     _setup_logging(verbose)
